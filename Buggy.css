@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #3C1006;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 7rem;
+    align-items: center;
+}
+
+.nav-bar .nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+}
+
+.nav-bar button{
+    padding: 10px;
+    width: 90px;
+    border: 0;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600 ;
+}
+
+.second{
+    /* height: 86vh; */
+    background: #D3BCA5 ;
+    padding: 20px 7rem;  
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.descriotion-details h1{
+    font-size: 50px;
+    line-height: 55px;
+    padding-bottom: 20px;
+    
+}
+
+.descriotion-details p{
+    font-size: 20px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.descriotion-details button{
+    padding: 13px;
+    width: 120px;
+    border: 0;
+    background-color:black;
+    border-radius: 4px;
+    font-weight: 600 ;
+    color: white;
+}
+
+.cloth{
+    width: 25vw;
+    height: 70vh;
+}
+
+.cloth img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 27%;
+}
+
+.cloth-collection{
+    height: 90vh;
+    padding: 20px 7rem;  
+}
+
+.new{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cloth-collection h1{
+    font-size: 60px;
+}
+
+.collection-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.sample{
+    width: 280px;
+    height: 320px;
+    background: #f0e8e2;   
+}
+
+.sample img{
+    width: 100%;
+    height: 100%;
+}
+
+.best-fashion{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    position: relative;
+    /* width: 100%; */
+    padding: 20px 10rem; 
+}
+
+.best-image{
+    width: 25vw;
+    height: 70vh;
+}
+
+.best-image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 27%;
+}
+
+.best-info h2 {
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 10px;
+   
+}
+
+.info-all{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-all p{
+    width: 400px;
+    padding-top: 30px;
+}
+
+.year ul{
+    width: 230px;
+    height: 70px;
+    display: flex;
+    background-color: rgba(193, 199, 197, 0.916);
+    list-style-type: none;
+    /* gap: 2rem; */
+    align-items: center;
+    justify-content: center;
+}
+
+.year ul li{
+    border: solid #ffffff8d;
+    border-width: 0px 1px;
+    padding: 20px;
+}
+
+.best-fashion .year{
+    position: absolute;
+    top: 85%;
+    right: 50%;
+}
+
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 7rem;
+    gap: 3rem;
+    background: #D3BCA5;
+    margin-top: 40px;
+}
+
+.seller h2{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.seller p{
+    margin-top: 20px;
+    width: 400px;
+}
+
+.third .seller button{    
+    padding: 13px;
+    width: 120px;
+    border: 0;
+    border: 3px solid black;
+    background: none;
+    font-weight: 600 ;
+    color: black;
+    margin-top: 10px;
+}
+
+.see-more{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+
+.see-image{
+    width: 180px;
+    height: 270px;
+}
+
+.see-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.forth{
+    /* height: 90vh; */
+    padding: 20px 6rem;
+
+}
+
+.forth h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.forth ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.forth ul li{
+    list-style-type: none;
+}
+
+.product-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px 1rem ;
+    margin-top: 20px;
+}
+
+.product-image div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-out{
+    width: 200px;
+    height: 250px;
+}
+    
+.check-out img{
+    width: 100%;
+    height: 100%;
+}
+
+.calender{
+    display: flex;
+
+}
+
+.date h2{
+    font-size: 40px;
+}
+
+.fifth{
+    display: flex;
+    padding: 20px 7rem;
+    background: #D3BCA5;
+    gap: 4rem;
+
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.date h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.number{
+    display: flex;
+    gap: 1rem;    
+}
+
+.size{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;    
+}
+
+.fifth button{
+    padding: 13px;
+    width: 120px;
+    border: 0;
+    background: black;
+    font-weight: 600 ;
+    color: white;
+    margin-top: 10px;
+}
+
+.side{
+    width: 250px;
+    height: 300px;
+    /* background: #D3BCA5; */
+}
+
+.side img{
+    width: 100%;
+    height: 100%;
+}
+
+.comment{
+    padding: 20px 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.review{
+    display: flex;
+    gap: 1rem;
+}
+
+.review div{
+    width: 150px;
+    height: 200px;
+    background: #D3BCA5;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px 7rem;
+    background: #3C1006;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+
+.white{
+    width: 420px;
+    height: 45px;
+    background: white;
+    color: black;
+    align-items: center;
+    place-content: center;
+    position: absolute;
+    bottom: 75%;
+    left: 35%;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-top: 45px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+@media (min-width: 200px) and (max-width: 767px){
+    .nav-bar .nav-list{
+        display: none;
+    }
+    .nav-bar{
+        padding: 20px 1rem;
+    }
+
+    .second{
+        height: 110vh;
+        padding: 20px 1rem;
+        position: relative;
+    }
+
+    .descriotion-details h1{
+        font-size: 40px;
+        line-height: 40px;
+        width: 300px;
+    }
+
+    .description {
+        display: block !important;
+    }
+
+    .descriotion-details p{
+        width: 360px;
+    }
+
+    .cloth{
+        width: 300px;
+        height: 360px;
+        padding-top: 20px;
+    }
+
+    .cloth img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .descriotion-details button{
+        position: absolute;
+        bottom: 20px;
+    }   
+
+    .cloth-collection{
+        height: max-content;
+        padding: 20px 1rem;  
+    }
+
+    .collection-image{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 35px;
+    }
+
+    .best-fashion{
+        flex-direction: column;
+        padding: 20px 1rem;
+    }
+
+    .best-image{
+        width: 95%;
+    }  
+
+    .best-fashion .year{
+        position: absolute;
+        top: 400px;
+        right: 40%;
+    }
+
+    .best-info h2{
+        font-size: 50px;
+        /* width: 400px; */
+    }
+
+    .best-info p{
+        align-content: justify;
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .third{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 35px;
+        height: max-content;
+        padding: 20px 1rem;
+    }
+
+    .see-more{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 1rem;
+        justify-content: center;
+               
+    }
+
+    .seller h2{
+        font-size: 50px;
+        /* width: 400px; */
+    }
+
+    .seller p{
+        width: 330px;
+    }
+
+    .product-image{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 1rem; 
+    }
+
+    .forth{
+        white-space: nowrap;
+        padding: 20px 4rem;    
+    }
+
+    .forth ul{
+        gap: 2rem;
+    }
+
+    .fifth{
+        padding: 20px 4rem;
+    }
+    
+    .review{
+        flex-direction: column;
+    }
+
+    .footer{
+        padding: 20px 1rem; 
+    }
+
+    .footer ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .white{
+        display: none;
+    }
+
+    .date h2{
+        white-space: nowrap;
+    }
+
+    .white p{
+        white-space: nowrap;
+    }
+}
+    
+
+@media (min-width: 768px) and (max-width: 991px){
+    .nav-bar{
+    padding: 10px 2rem;
+}
+
+    .second{
+        height: 50vh;
+        padding: 20px 1rem;   
+    }
+
+    .cloth{
+        width: 35vw;
+        height: 43vh;
+    }
+
+    .cloth-collection{
+        height: max-content;
+        padding: 10px 2rem;  
+    }
+
+    .collection-image{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 30px;
+        margin-top: 35px;
+    }
+
+    .sample{
+        width: 330px;
+        height: 390px;
+        background: #f0e8e2;   
+    }
+
+    .best-fashion{
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+        position: relative;
+        padding: 10px 2rem; 
+        margin-top: 30px;
+    }
+
+    .third{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 35px;
+        height: max-content;
+        padding: 10px 2rem; 
+    }
+
+    .best-image{
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .best-info p{
+        font-size: 20px;
+    }
+
+    .third{
+        height: max-content;
+        /* padding: 15px 2rem; */
+    }
+
+    .seller p{
+        font-size: 30px;
+        width: 730px;
+    }
+
+    .see-image{
+        display: flex;
+        gap: 3rem;
+        width: 200px;
+    }
+
+    .product-image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px 1rem; 
+    }
+
+    .forth{
+        /* white-space: nowrap; */
+        padding: 20px 4rem;    
+    }
+
+}
